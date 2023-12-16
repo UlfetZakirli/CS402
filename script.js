@@ -266,5 +266,33 @@ let age = 20
 // console.log('false' || 'undefined' || 0);
 
 
-console.log('Second commit');
+// console.log('Second commit');
+
+// let num = 33
+// let user = 'Ulfat'
+
+// num > 40 and user = 'Ulfat'
+
+// operators
+// 1.declare two variables a and b(assign 8 and '4' to them)
+// 2.sum 
+// 3.substr 
+// 4.divide
+// 5.multiple
+// 6.pow 
+// 7.%
+
+// what is result of these?
+// console.log(9 || false || 'something');
+// console.log('11' && true && 'something' && null);
+// console.log(undefined || false || '');
+// console.log(91 || false || true || ' ');
+
+// if (6 < 15) {
+//     console.log('it is true!')
+//     console.log('it is true!')
+//     console.log('it is true!')
+//     console.log('it is true!')
+//     console.log('it is true!')
+// }
 
