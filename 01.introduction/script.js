@@ -35,7 +35,8 @@
 // var user = 'Ferid'
 // var user = 'Ferid'
 // var user = 'Ferid'
-// var user = 'Nicat'
+// var user = 'Nicat';
+
 
 // let user = 'Ulfat'
 // console.log(user);
@@ -158,7 +159,7 @@
 // (all string is true)
 
 
-// falsy values - 0, null, undefined,NaN,false,'',""
+// falsy values - 0, null, undefined,NaN, false,'',""
 
 
 // let string = 'isAdmin'
@@ -171,6 +172,8 @@
 //     console.log('else');
 // }
 
+// NaN - (not a number)
+
 
 // let a = 'a'
 // let b = 'b'
@@ -178,7 +181,6 @@
 // let a, b
 // a = 'a'
 // b = 'c'
-
 
 // age,username,isAdmin
 
@@ -196,10 +198,8 @@
 // switch (age) {
 //     case 20:
 //         console.log('1');
-//         break;
 //     case 24:
 //         console.log('2');
-//         break;
 //     case 23:
 //         console.log('3');
 //     case 23:
@@ -212,16 +212,13 @@
 
 
 
-
-
 // Bitwise operators (&&, ||, !)
 
 // & -and
 // | - or
 // !- not
 
-
-let age = 20
+// let age = 29
 // if (age > 27 || age > 18 || age > 100 || age == 'Ulfat' || age == nul) {
 //     console.log('age');
 // }
@@ -243,8 +240,6 @@ let age = 20
 // if (!isAdmin)           // if (isAdmin)
 
 
-
-
 // if (isAdmin = '8') {
 //     isAdmin = '9'
 //     console.log(isAdmin);
@@ -259,10 +254,11 @@ let age = 20
 // }
 
 // || - show first true value  (if not then show last value)
-//  && - show first false value (if not then show last value)
+// && - show first false value (if not then show last value)
 
 
 // console.log(9 && 90 && 'undefined' && false);
+
 // console.log('false' || 'undefined' || 0);
 
 
@@ -282,6 +278,10 @@ let age = 20
 // 6.pow 
 // 7.%
 
+// Math.pow(9, 2)
+// 9 ** 2
+
+
 // what is result of these?
 // console.log(9 || false || 'something');
 // console.log('11' && true && 'something' && null);
@@ -296,3 +296,6 @@ let age = 20
 //     console.log('it is true!')
 // }
 
+
+// let, const - block scope
+// var - global scope
