@@ -181,3 +181,6 @@ const students = [
 // const result1 = students.findLast(item => item.surname == 'Yusifli')
 // const result = students.find(item => item.surname == 'Yusifli')
 // console.log(result);
+
+
+
