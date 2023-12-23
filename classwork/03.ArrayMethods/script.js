@@ -226,6 +226,8 @@ let user = 'ulfat zakirli'
 const studentsArr = ['Yusif', 'Reshad', 'Nihad', 'Nezire', 'Metin', 'Heyder', 'Rafiq', 'Eli', 'Nizam', 'Xeyale', 'Abbas', 'Anar', 'Ulfat']
 // add name in front of name like that (name: Yusif)
 // then join to text
+const result = studentsArr.map(item => `name: ${item}`).join(' ')
+console.log(result);
 
 
 
