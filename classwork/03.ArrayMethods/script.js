@@ -217,17 +217,22 @@ const numbers2 = [6, 6, 11, 21, 3, 34, 4, 3, 1, 9, 0, 7]
 
 
 // class task 
-let user = 'ulfat zakirli'
-// split by 'l'
-// split by ','
-// split by '' and ' '
+// let user = 'ulfat zakirli'
+// // split by 'l'
+// // split by ','
+// // split by '' and ' '
 
 
-const studentsArr = ['Yusif', 'Reshad', 'Nihad', 'Nezire', 'Metin', 'Heyder', 'Rafiq', 'Eli', 'Nizam', 'Xeyale', 'Abbas', 'Anar', 'Ulfat']
-// add name in front of name like that (name: Yusif)
-// then join to text
-const result = studentsArr.map(item => `name: ${item}`).join(' ')
-console.log(result);
+// const studentsArr = ['Yusif', 'Reshad', 'Nihad', 'Nezire', 'Metin', 'Heyder', 'Rafiq', 'Eli', 'Nizam', 'Xeyale', 'Abbas', 'Anar', 'Ulfat']
+// // add name in front of name like that (name: Yusif)
+// // then join to text
+// const result = studentsArr.map(item => `name: ${item}`).join(' ')
+// console.log(result);
+
+
+
+
+
 
 
 
