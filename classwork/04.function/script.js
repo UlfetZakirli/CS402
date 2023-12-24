@@ -90,3 +90,87 @@
 // console.log(getAvg(users4));
 
 
+
+// const arrNum = [6, 2, 6, 7, 2, 1, 88]
+
+// console.log(studentsArr.filter(item => item.startsWith('N')));
+
+// class Task
+
+// 1.Create a variable (let num=17) give a condition with ternary operator
+// 2.Check 'your name' if it start with 'a' console '1' else console '2'
+// 3.Check 'your name' if it end with 't' console '1' else console '2'
+
+// 4.Create a function called 'sumNum' which sum 8 and 9
+// 5.Create a function called 'multNum' which mult 19, 59 and 9
+// 6.Create a function called 'getAvg' which avg of 'arrNum'
+// 7.Create a function called getUsers which gives users from 'studentsArr' where user start with 'N'
+// 8.Create a function called getUsers2 which gives users from 'studentsArr' where user length is eqaul or greater than 6
+
+
+// function getAvg() {
+//     return arrNum.reduce((acc, curr) => acc + curr, 0) / arrNum.length
+// }
+// console.log(getAvg());
+
+////////////////////////////////////////////////////////////////////////////////////////////
+//get random user from studentsArr
+// let studentsArr = ['Yusif', 'Reshad', 'Nihad', 'Nezire', 'Metin', 'Heyder', 'Rafiq', 'Eli', 'Nizam', 'Xeyale', 'Abbas', 'Anar', 'Ulfat']
+
+// function getRandom() {
+//     let randomName = studentsArr[Math.floor(Math.random() * studentsArr.length)]
+//     console.log(randomName);
+//     studentsArr = studentsArr.filter((student) => student !== randomName)
+//     return studentsArr
+// }
+
+// setInterval(() => {
+//     if (studentsArr.length) {
+//         console.log(getRandom());
+//     } else {
+//         console.log('finished');
+//     }
+// }, 2000)
+////////////////////////////////////////////////////////////////////////////////////////////
+
+// studentsArr.map((student,index) => console.log(student))
+
+// for (let i = 0; i <= 5; i += 2) {
+//     console.log(i);
+// }
+
+
+
+// for (let i = 0; i < studentsArr.length; i++) {
+//     console.log(studentsArr[i]);
+// }
+
+
+// for (let i = 0; i < 20; i += 3) {
+//     console.log(i);
+// }
+
+// let myName = 'Nezire'
+// U
+// l
+// f
+// a
+// t
+
+// for (let i = 0; i < 20; i ++) {
+//    console only odd numbers
+// }
+
+// for (let i = 0; i < 20; i ++) {
+//    console only even numbers
+// }
+
+
+// Math methods
+console.log(Math.max(1, 2, 66, 44, 200));
+console.log(Math.min(1, 2, 66, 44, 200));
+console.log(Math.pow(5, 2));
+console.log(Math.sqrt(36));
+console.log(Math.abs(-999));
+
+
